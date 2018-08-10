@@ -1,0 +1,89 @@
+/*body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #0E3D59;
+}*/
+
+form {
+	padding: 7px;
+	border: solid 1px #4B4B4B;
+	height: 100%;
+}
+
+fieldset {
+	border: none;
+}
+
+div.two label {
+	color: #ffffff;
+	float: left;
+	width: 33%;
+	text-align: left;
+	padding-right: 7px;
+	padding-left: 7px;
+	position: relative;
+	margin-top: 3px;
+	/*margin-top: 2px;*/
+}
+
+div.two input, div.two select, div.two textarea{
+	/*float: left;*/
+	width: 66%;
+	text-align: left;
+	margin-top: 7px;
+}
+
+/*div.two select {
+	width: 157px;
+	
+}*/
+
+div.one {
+	text-align: center;
+}
+
+#submit {
+      /* border: 2px #FFFFFF solid; */
+    padding: 7px 14px;
+	float: right;
+	margin: 20px 7px 20px 7px;
+    border-radius: 20px;
+    width: 100px;
+    font-size: 90%;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.4s;
+    cursor: pointer;
+    background: rgb(133,126,217);
+    background: -moz-linear-gradient(top, rgba(133,126,217,1) 0%, rgba(78,74,127,1) 100%, rgba(78,74,127,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(133,126,217,1) 0%,rgba(78,74,127,1) 100%,rgba(78,74,127,1) 100%);
+    background: linear-gradient(to bottom, rgba(133,126,217,1) 0%,rgba(78,74,127,1) 100%,rgba(78,74,127,1) 100%);
+}
+
+
+.tooltip {
+	display: block; 
+	/*position: absolute;*/
+	visibility: hidden;
+	left: 100%;
+	top: 0; 
+	margin-top: 14px;
+	/*width: 20%;*/
+	padding: 7px;
+	border-radius: 10px;
+	font-weight: normal;
+	font-size: 0.75em;
+	color: #ffffff;
+	background: rgb(72,143,211);
+    background: -moz-linear-gradient(top, rgba(72,143,211,1) 0%, rgba(41,137,216,1) 15%, rgba(32,124,202,1) 40%, rgba(40,79,116,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(72,143,211,1) 0%,rgba(41,137,216,1) 15%,rgba(32,124,202,1) 40%,rgba(40,79,116,1) 100%);
+    background: linear-gradient(to bottom, rgba(72,143,211,1) 0%,rgba(41,137,216,1) 15%,rgba(32,124,202,1) 40%,rgba(40,79,116,1) 100%);
+	border:solid 1px thick;
+}
+
+.error {
+	color: #D92525;
+}
+span.error{
+	padding-left: 10px;
+}
